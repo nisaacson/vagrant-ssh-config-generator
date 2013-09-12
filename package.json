@@ -1,12 +1,12 @@
 {
-  "name": "vagrant_ssh",
+  "name": "vagrant-ssh-config-generator",
   "version": "0.0.1",
   "description": "Create an ssh config setting string to allow ssh access to vagrant virtual machines",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
-  "author": "",
+  "author": "nisaacson",
   "license": "BSD-2-Clause",
   "dependencies": {
     "ejs": "~0.8.4"
@@ -14,5 +14,19 @@
   "devDependencies": {
     "chai": "~1.7.2",
     "mocha": "~1.12.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/vagrant-ssh-config-generator.git"
+  },
+  "keywords": [
+    "vagrant",
+    "ssh"
+  ],
+  "bugs": {
+    "url": "https://github.com/nisaacson/vagrant-ssh-config-generator/issues"
   }
 }
