@@ -3,6 +3,6 @@ Host *.vagrant.dev
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
-  IdentityFile "<%= ssh_key_path %>"
+  IdentityFile "SSH_KEY_PATH_HERE"
   IdentitiesOnly yes
   LogLevel FATAL
